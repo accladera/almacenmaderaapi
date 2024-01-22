@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "4ipBt08DjTCrOHxZuvY71sEaSzMWQAafuJE1oHjnz++STyM3zkOQAy1KglPIYUGVqZiMMUhWq/E7DjvcsXP3Fw==",
+  "success": true,
+  "projectFilePath": "D:\\2024\\UNIVERSIDAD\\Proyectos\\almacenapi\\almacenapi\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CAROLINA\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\CAROLINA\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\CAROLINA\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\CAROLINA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\CAROLINA\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

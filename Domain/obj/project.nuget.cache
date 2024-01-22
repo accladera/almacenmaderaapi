@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sM12MhZQWQSca2iKJJVWJXLDN4L9xSlg8R6jbHJgDLXFbv3id8S86IQyvoNj3ubVta4W9vxAiupFl6s10/rUuA==",
+  "success": true,
+  "projectFilePath": "D:\\2024\\UNIVERSIDAD\\Proyectos\\almacenapi\\almacenapi\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CAROLINA\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\CAROLINA\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

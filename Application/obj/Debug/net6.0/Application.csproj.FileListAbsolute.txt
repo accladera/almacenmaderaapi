@@ -1,0 +1,17 @@
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\bin\Debug\net6.0\Application.deps.json
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\bin\Debug\net6.0\Application.dll
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\bin\Debug\net6.0\Application.pdb
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\bin\Debug\net6.0\Domain.dll
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\bin\Debug\net6.0\SharedKernel.dll
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\bin\Debug\net6.0\Domain.pdb
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\bin\Debug\net6.0\SharedKernel.pdb
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\obj\Debug\net6.0\Application.dll
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\obj\Debug\net6.0\refint\Application.dll
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\obj\Debug\net6.0\Application.pdb
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Application\obj\Debug\net6.0\ref\Application.dll
