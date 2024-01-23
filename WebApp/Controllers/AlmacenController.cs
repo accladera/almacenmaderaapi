@@ -1,4 +1,5 @@
-﻿using Application.UseCases.Query.GetAlmacenes;
+﻿using Application.UseCases.Commands.AlmacenAgregaProducto;
+using Application.UseCases.Query.GetAlmacenes;
 using Application.UseCases.Query.GetAlmacenesBySucursal;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -21,7 +22,20 @@ namespace WebApp.Controllers
         }
 
 
-
+        [HttpPost("almacenarProducto")]
+        public async Task<IActionResult> AlmacenarProducto([FromBody] AlmacenAgregarProductoCommand command)
+        {
+            try
+            {
+                var resultGuid = await _mediator.Send(command);
+                return Ok(resultGuid);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error al registrar");
+                return StatusCode(500, ex.Message);
+            }
+        }
 
 
 

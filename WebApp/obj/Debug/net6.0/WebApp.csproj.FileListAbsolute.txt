@@ -1,11 +1,3 @@
-D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.csproj.AssemblyReference.cache
-D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.AssemblyInfoInputs.cache
-D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.AssemblyInfo.cs
-D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.csproj.CoreCompileInputs.cache
-D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.MvcApplicationPartsAssemblyInfo.cs
-D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.MvcApplicationPartsAssemblyInfo.cache
-D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.sourcelink.json
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\bin\Debug\net6.0\appsettings.Development.json
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\bin\Debug\net6.0\appsettings.json
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\bin\Debug\net6.0\WebApp.exe
@@ -63,6 +55,14 @@ D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\bin\Debug\net6.0\Infr
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\bin\Debug\net6.0\Application.pdb
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\bin\Debug\net6.0\Domain.pdb
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\bin\Debug\net6.0\SharedKernel.pdb
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.csproj.AssemblyReference.cache
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.AssemblyInfoInputs.cache
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.AssemblyInfo.cs
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.csproj.CoreCompileInputs.cache
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.MvcApplicationPartsAssemblyInfo.cs
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\WebApp.sourcelink.json
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\staticwebassets.build.json
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\staticwebassets.development.json
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\WebApp\obj\Debug\net6.0\staticwebassets\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props
