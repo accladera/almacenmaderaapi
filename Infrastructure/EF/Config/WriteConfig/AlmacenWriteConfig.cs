@@ -12,16 +12,13 @@ namespace Infrastructure.EF.Config.WriteConfig
     {
         public void Configure(EntityTypeBuilder<Almacen> builder)
         {
-            var guidConverter = new ValueConverter<GuidVerificadoValue, Guid>(
-        guidIdValue => guidIdValue.Id,
-         guidValue => new GuidVerificadoValue(guidValue)
-        );
+         
             builder.ToTable("Almacen");
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).HasColumnName("idAlmacen");
             builder.Property(x => x.NombreReferencia).HasColumnName("NombreReferencia");
             builder.Property(x => x.CodTipoAlmacen).HasColumnName("CodTipoAlmacen");
-            builder.Property(x => x.IdSucursal).HasColumnName("IdSucursal").HasConversion(guidConverter);
+            builder.Property(x => x.IdSucursal).HasColumnName("IdSucursal");
 
             builder.Ignore("_domainEvents");
             builder.Ignore(x => x.DomainEvents);

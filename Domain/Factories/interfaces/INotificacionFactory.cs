@@ -5,6 +5,6 @@ namespace Domain.Factories.interfaces
 
     public interface INotificacionFactory
     {
-        Notificacion Create(Guid idDestinatario, Guid idStock, string msg);
+        Notificacion Create(Guid IdEmpleado, Guid idInventario, string msg);
     }
 }

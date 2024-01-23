@@ -12,7 +12,7 @@ namespace Domain.Model
 
         public Guid Id { get; private set; }
         public Guid IdSucursal { get; private set; }
-        public NombreGeneralValue NombreReferencia { get; private set; }
+        public string NombreReferencia { get; private set; }
         public int CodTipoAlmacen { get; private set; }
 
         public Almacen(Guid idSucursal, string nombreReferencia,  int codTipoAlmacen)

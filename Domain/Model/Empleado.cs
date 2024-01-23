@@ -9,12 +9,12 @@ namespace Domain.Model
     {
         public Guid Id { get; private set; }
         public Guid IdSucursal { get; private set; }
-        public EmailValue Email { get; private set; }
-        public UserPasswordValue Password { get; private set; }
-        public NombreGeneralValue NombreCompleto { get; private set; }
+        public string Email { get; private set; }
+        public string Password { get; private set; }
+        public string NombreCompleto { get; private set; }
         public int CodPuesto { get; private set; }
 
-        public Empleado(Guid idSucursal, EmailValue email, string password, string nombreCompleto, int codPuesto)
+        public Empleado(Guid idSucursal, string email, string password, string nombreCompleto, int codPuesto)
         {
             IdSucursal = idSucursal;
             Email = email;

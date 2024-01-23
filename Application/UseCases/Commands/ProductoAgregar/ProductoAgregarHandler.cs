@@ -1,5 +1,4 @@
-﻿
-using Domain.Factories.interfaces;
+﻿using Domain.Factories.interfaces;
 using Domain.Repositories;
 using MediatR;
 using SharedKernel.Core;

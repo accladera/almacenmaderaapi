@@ -1,0 +1,39 @@
+﻿
+using Infrastructure.EF.ReadModel;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+
+namespace Infrastructure.EF.Config.ReadConfig
+{
+    
+
+    public class MovimientoReadConfig : IEntityTypeConfiguration<MovimientoReadModel>
+    {
+        public void Configure(EntityTypeBuilder<MovimientoReadModel> builder)
+        {
+            builder.ToTable("Movimiento");
+            builder.HasKey(c => c.Id);
+
+            builder.Property(c => c.Id).HasColumnName("idMovimiento");
+
+            builder.Property(c => c.Fecha).HasColumnName("Fecha");
+            builder.Property(c => c.CodTipoMov).HasColumnName("CodTipoMov");
+            builder.Property(c => c.Cantidad).HasColumnName("Cantidad");
+            builder.Property(c => c.ValorEconomico).HasColumnName("ValorEconomico");
+            builder.Property(c => c.Cantidad).HasColumnName("Cantidad");
+            builder.Property(c => c.Peso).HasColumnName("Peso");
+
+            builder.Property(c => c.IdEmpleado).HasColumnName("IdEmpleado");
+            builder.HasOne(c => c.Empleado).WithMany()
+               .HasForeignKey(c => c.IdEmpleado)
+             .OnDelete(DeleteBehavior.Restrict);
+            builder.Property(c => c.IdInventario).HasColumnName("idInventario");
+            builder.HasOne(c => c.Inventario).WithMany()
+               .HasForeignKey(c => c.IdInventario).OnDelete(DeleteBehavior.Restrict);
+        }
+    }
+
+
+
+
+}

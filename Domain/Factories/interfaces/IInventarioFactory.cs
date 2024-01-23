@@ -5,7 +5,7 @@ namespace Domain.Factories.interfaces
 {
     public interface IInventarioFactory
     {
-        Inventario Create(Guid idInsumo, Guid idProducto, Guid idMaterial, Guid idAlmacen, int valorEcomico, int cantidad, DateTime fechaConteo, bool esActual);
+        Inventario Create(Guid idProducto, Guid idAlmacen, int valorEconomico, int cantidad, DateTime fechaConteo, bool esActual);
 
     }
 }

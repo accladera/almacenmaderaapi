@@ -11,22 +11,18 @@ namespace Domain.Model
 
 
         public Guid Id { get; private set; }
-        public Guid IdInsumo { get; private set; }
         public Guid IdProducto { get; private set; }
-        public Guid IdMaterial { get; private set; }
         public Guid IdAlmacen { get; private set; }
-        public MontoValue ValorEcomico { get; private set; }
-        public MontoValue Cantidad { get; private set; }
+        public int ValorEconomico { get; private set; }
+        public int Cantidad { get; private set; }
         public DateTime FechaConteo { get; private set; }
         public bool EsActual { get; private set; }
 
-        public Inventario(Guid idInsumo, Guid idProducto, Guid idMaterial, Guid idAlmacen, int valorEcomico, int cantidad, DateTime fechaConteo, bool esActual)
+        public Inventario(Guid idProducto,  Guid idAlmacen, int valorEconomico, int cantidad, DateTime fechaConteo, bool esActual)
         {
-            IdInsumo = idInsumo;
             IdProducto = idProducto;
-            IdMaterial = idMaterial;
             IdAlmacen = idAlmacen;
-            ValorEcomico = valorEcomico;
+            ValorEconomico = valorEconomico;
             Cantidad = cantidad;
             FechaConteo = fechaConteo;
             EsActual = esActual;

@@ -5,7 +5,7 @@ namespace Domain.Factories.interfaces
 {
     public interface IEmpleadoFactory
     {
-        Empleado Create(Guid idSucursal, EmailValue email, string password, string nombreCompleto, int codPuesto);
+        Empleado Create(Guid idSucursal, string email, string password, string nombreCompleto, int codPuesto);
 
     }
 }

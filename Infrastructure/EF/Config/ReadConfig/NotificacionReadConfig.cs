@@ -21,11 +21,13 @@ namespace Infrastructure.EF.Config.ReadConfig
 
             builder.Property(c => c.IdInventario).HasColumnName("IdInventario");
             builder.HasOne(c => c.Inventario).WithMany()
-               .HasForeignKey(c => c.IdInventario);
+               .HasForeignKey(c => c.IdInventario)
+               .OnDelete(DeleteBehavior.Restrict);
 
             builder.Property(c => c.IdEmpleadoDestinatario).HasColumnName("IdEmpleado");
             builder.HasOne(c => c.Empleado).WithMany()
-               .HasForeignKey(c => c.IdEmpleadoDestinatario);
+               .HasForeignKey(c => c.IdEmpleadoDestinatario)
+               .OnDelete(DeleteBehavior.Restrict);
 
         }
     }

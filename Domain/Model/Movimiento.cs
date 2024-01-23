@@ -5,21 +5,21 @@ using SharedKernel.Core;
 
 namespace Domain.Model
 {
-    public class MovimientosInventario : AggregateRoot<Guid>
+    public class Movimiento : AggregateRoot<Guid>
     {
         public Guid Id { get; private set; }
         public Guid IdEmpleado { get; private set; }
-        public Guid IdStock { get; private set; }
+        public Guid IdInventario { get; private set; }
         public DateTime Fecha { get; private set; }
         public int CodTipoMov { get; private set; } //ingresa/salida
-        public MontoValue ValorEconomico { get; private set; }
-        public MontoValue Cantidad { get; private set; }
-        public MontoValue Peso { get; private set; }
+        public int ValorEconomico { get; private set; }
+        public int Cantidad { get; private set; }
+        public int Peso { get; private set; }
 
-        public MovimientosInventario(Guid idEmpleadoAutor, Guid idStock, DateTime fecha, int codTipoMov, int valorEconomico, int cantidad, int peso)
+        public Movimiento(Guid idEmpleado, Guid idInventario, DateTime fecha, int codTipoMov, int valorEconomico, int cantidad, int peso)
         {
-            IdEmpleado = idEmpleadoAutor;
-            IdStock = idStock;
+            IdEmpleado = idEmpleado;
+            IdInventario = idInventario;
             Fecha = fecha;
             CodTipoMov = codTipoMov;
             ValorEconomico = valorEconomico;

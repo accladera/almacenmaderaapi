@@ -8,13 +8,13 @@ namespace Domain.Model
     public class Material : AggregateRoot<Guid>
     {
         public Guid Id { get; private set; }
-        public NombreGeneralValue Nombre { get; private set; }
+        public string Nombre { get; private set; }
         public string Descripcion { get; private set; }
-        public MontoValue ValorUnitario { get; private set; }
-        public MontoValue StockMinimo { get; private set; }
-        public MontoValue Peso { get; private set; }
-        public MontoValue Altura { get; private set; }
-        public MontoValue Anchura { get; private set; }
+        public int ValorUnitario { get; private set; }
+        public int StockMinimo { get; private set; }
+        public int Peso { get; private set; }
+        public int Altura { get; private set; }
+        public int Anchura { get; private set; }
 
 
         public Material(string nombre, string descripcion, int valorUnitario, int stockMinimo,

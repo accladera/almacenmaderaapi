@@ -11,12 +11,12 @@ namespace Domain.Model
         public Guid IdEmpleado { get; private set; }
         public Guid IdInventario { get; private set; }
         public DateTime Fecha { get; private set; }
-        public NombreGeneralValue Mensaje { get; private set; }
+        public string Mensaje { get; private set; }
 
-        public Notificacion(Guid idEmpleadoDestinatario, Guid idStock, DateTime fecha, string mensaje)
+        public Notificacion(Guid IdEmpleado, Guid idInventario, DateTime fecha, string mensaje)
         {
-            IdEmpleado = idEmpleadoDestinatario;
-            IdInventario = idStock;
+            IdEmpleado = IdEmpleado;
+            IdInventario = idInventario;
             Fecha = fecha;
             Mensaje = mensaje;
             Id = Guid.NewGuid();

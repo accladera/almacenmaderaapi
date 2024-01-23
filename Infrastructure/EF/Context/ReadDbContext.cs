@@ -13,6 +13,7 @@ namespace Infrastructure.EF.Context
         public virtual DbSet<AlmacenReadModel> Almacenes { get; set; }
         public virtual DbSet<InventarioReadModel> Inventarios { get; set; }
         public virtual DbSet<NotificacionReadModel> Notificaciones { get; set; }
+        public virtual DbSet<MovimientoReadModel> Movimientos { get; set; }
       
         public ReadDbContext(DbContextOptions<ReadDbContext> options) : base(options)
         {
@@ -29,6 +30,7 @@ namespace Infrastructure.EF.Context
             modelBuilder.ApplyConfiguration<AlmacenReadModel>(new AlmacenReadConfig());
             modelBuilder.ApplyConfiguration<InventarioReadModel>(new InventarioReadConfig());
             modelBuilder.ApplyConfiguration<NotificacionReadModel>(new NotificacionReadConfig());
+            modelBuilder.ApplyConfiguration<MovimientoReadModel>(new MovimientoReadConfig());
            
          
         }

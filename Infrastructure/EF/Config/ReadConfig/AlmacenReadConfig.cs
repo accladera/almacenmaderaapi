@@ -14,10 +14,10 @@ namespace Infrastructure.EF.Config.ReadConfig
             builder.ToTable("Almacen");
             builder.HasKey(c => c.Id);
 
-            builder.Property(c => c.Id).HasColumnName("idAlmacen");
+            builder.Property(c => c.Id).HasColumnName("IdAlmacen");
 
-            builder.Property(c => c.NombreReferencia).HasColumnName("nombreReferencia");
-            builder.Property(c => c.CodTipoAlmacen).HasColumnName("codTipoAlmacen");
+            builder.Property(c => c.NombreReferencia).HasColumnName("NombreReferencia");
+            builder.Property(c => c.CodTipoAlmacen).HasColumnName("CodTipoAlmacen");
             builder.Property(c => c.IdSucursal).HasColumnName("IdSucursal");
             builder.HasOne(c => c.Sucursal).WithMany()
                .HasForeignKey(c => c.IdSucursal);

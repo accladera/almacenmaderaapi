@@ -13,6 +13,7 @@ D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Infrastructure\obj\Debug\net
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Infrastructure\obj\Debug\net6.0\Infrastructure.sourcelink.json
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll

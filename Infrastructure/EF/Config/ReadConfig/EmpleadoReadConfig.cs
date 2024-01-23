@@ -19,6 +19,7 @@ namespace Infrastructure.EF.Config.ReadConfig
             builder.Property(c => c.Email).HasColumnName("email");
             builder.Property(c => c.Password).HasColumnName("password");
             builder.Property(c => c.CodPuesto).HasColumnName("codPuesto");
+
             builder.Property(c => c.IdSucursal).HasColumnName("IdSucursal");
             builder.HasOne(c => c.Sucursal).WithMany()
                .HasForeignKey(c => c.IdSucursal);

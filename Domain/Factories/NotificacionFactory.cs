@@ -7,9 +7,9 @@ namespace Domain.Factories
 {
     public class NotificacionFactory: INotificacionFactory
     {
-        public Notificacion Create(Guid idDestinatario, Guid idStock, string msg)
+        public Notificacion Create(Guid IdEmpleado, Guid idInventario, string msg)
         {
-            var obj = new Notificacion(idDestinatario,idStock,DateTime.Now,msg);
+            var obj = new Notificacion(IdEmpleado, idInventario, DateTime.Now,msg);
             return obj;
         }
     }

@@ -18,7 +18,7 @@ namespace Application
             services.AddScoped<IInsumoFactory, InsumoFactory>();
             services.AddScoped<IInventarioFactory, InventarioFactory>();
             services.AddScoped<IMaterialFactory, MaterialFactory>();
-            services.AddScoped<IMovimientoInventarioFactory, MovimientoInventarioFactory>();
+            services.AddScoped<IMovimientoFactory, MovimientoFactory>();
             services.AddScoped<INotificacionFactory, NotificacionFactory>();
             services.AddScoped<IProductoFactory, ProductoFactory>();
             services.AddScoped<ISucursalFactory, SucursalFactory>();

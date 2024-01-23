@@ -1,6 +1,8 @@
 ﻿using Application.UseCases.Commands.ProductoAgregar;
 using Microsoft.AspNetCore.Mvc;
 using MediatR;
+using Application.UseCases.Query.GetProductosByAlmacen;
+using Application.UseCases.Query.GetProductos;
 
 
 namespace WebApp.Controllers
@@ -33,6 +35,51 @@ namespace WebApp.Controllers
             }
         }
 
+
+        [HttpGet("all")]
+        public async Task<IActionResult> ListaProductos( )
+        {
+            try
+            {
+                var query = new GetProductosQuery();
+                var list = await _mediator.Send(query);
+
+                if (list == null)
+                    return BadRequest();
+
+                return Ok(list);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error");
+                return BadRequest(ex.Message);
+            }
+        }
+
+
+
+
+
+
+        [Route("byAlmacen")]
+        [HttpPost]
+        public async Task<IActionResult> ListaProductosPorInventarioDeAlmacen([FromBody] GetProductosByAlmacenQuery query)
+        {
+            try
+            {
+                var list = await _mediator.Send(query);
+
+                if (list == null)
+                    return BadRequest();
+
+                return Ok(list);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error");
+                return BadRequest(ex.Message);
+            }
+        }
 
 
 

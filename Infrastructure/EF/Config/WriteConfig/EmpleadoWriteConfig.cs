@@ -12,10 +12,7 @@ namespace Infrastructure.EF.Config.WriteConfig
     {
         public void Configure(EntityTypeBuilder<Empleado> builder)
         {
-            var guidConverter = new ValueConverter<GuidVerificadoValue, Guid>(
-        guidIdValue => guidIdValue.Id,
-         guidValue => new GuidVerificadoValue(guidValue)
-        );
+         
             builder.ToTable("Empleado");
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).HasColumnName("idEmpleado");
@@ -23,7 +20,7 @@ namespace Infrastructure.EF.Config.WriteConfig
             builder.Property(x => x.Email).HasColumnName("Email");
             builder.Property(x => x.Password).HasColumnName("Password");
             builder.Property(x => x.CodPuesto).HasColumnName("CodPuesto");
-            builder.Property(x => x.IdSucursal).HasColumnName("IdSucursal").HasConversion(guidConverter);
+            builder.Property(x => x.IdSucursal).HasColumnName("IdSucursal");
 
             builder.Ignore("_domainEvents");
             builder.Ignore(x => x.DomainEvents);

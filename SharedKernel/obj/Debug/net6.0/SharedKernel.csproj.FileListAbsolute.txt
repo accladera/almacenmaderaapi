@@ -6,6 +6,7 @@ D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\SharedKernel\obj\Debug\net6.
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\SharedKernel\obj\Debug\net6.0\SharedKernel.AssemblyInfoInputs.cache
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\SharedKernel\obj\Debug\net6.0\SharedKernel.AssemblyInfo.cs
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\SharedKernel\obj\Debug\net6.0\SharedKernel.csproj.CoreCompileInputs.cache
+D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\SharedKernel\obj\Debug\net6.0\SharedKernel.sourcelink.json
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\SharedKernel\obj\Debug\net6.0\SharedKernel.dll
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\SharedKernel\obj\Debug\net6.0\refint\SharedKernel.dll
 D:\2024\UNIVERSIDAD\Proyectos\almacenapi\almacenapi\SharedKernel\obj\Debug\net6.0\SharedKernel.pdb

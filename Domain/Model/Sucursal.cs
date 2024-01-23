@@ -7,8 +7,8 @@ namespace Domain.Model
     public class Sucursal : AggregateRoot<Guid>
     {
         public Guid Id { get; private set; }
-        public NombreGeneralValue NombreReferencia { get; private set; }
-        public NombreGeneralValue Direccion { get; private set; }
+        public string NombreReferencia { get; private set; }
+        public string Direccion { get; private set; }
         public bool EsPrincipal { get; private set; }
         public int CodTipoSucursal { get; private set; }
 

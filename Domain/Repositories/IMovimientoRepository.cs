@@ -4,11 +4,11 @@ using SharedKernel.Core;
 
 namespace Domain.Repositories
 {
-    public interface IMovimientoRepository : IRepository<MovimientosInventario, Guid>
+    public interface IMovimientoRepository : IRepository<Movimiento, Guid>
     {
-        Task UpdateAsync(MovimientosInventario obj);
-        Task RemoveAsync(MovimientosInventario obj);
-        Task Add(MovimientosInventario obj);
+        Task UpdateAsync(Movimiento obj);
+        Task RemoveAsync(Movimiento obj);
+        Task Add(Movimiento obj);
     }
    
 }

@@ -13,6 +13,7 @@ namespace Infrastructure.EF.Context
         public virtual DbSet<Almacen> Almacenes { get; set; }
         public virtual DbSet<Inventario> Inventarios { get; set; }
         public virtual DbSet<Notificacion> Notificaciones { get; set; }
+        public virtual DbSet<Movimiento> Movimientos { get; set; }
         public WriteDbContext(DbContextOptions<WriteDbContext> options) : base(options)
         {
         }
@@ -27,6 +28,7 @@ namespace Infrastructure.EF.Context
             modelBuilder.ApplyConfiguration<Almacen>(new AlmacenWriteConfig());
             modelBuilder.ApplyConfiguration<Inventario>(new InventarioWriteConfig());
             modelBuilder.ApplyConfiguration<Notificacion>(new NotificacionWriteConfig());
+            modelBuilder.ApplyConfiguration<Movimiento>(new MovimientoWriteConfig());
 
             modelBuilder.Ignore<DomainEvent>();
         }

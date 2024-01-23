@@ -1,5 +1,4 @@
-﻿using Application;
-using Domain.Factories.interfaces;
+﻿ using Application;
 using Domain.Repositories;
 using Infrastructure.EF;
 using Infrastructure.EF.Context;
@@ -33,6 +32,12 @@ namespace Infrastructure
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IProductoRepository, ProductoRepository>();
+            services.AddScoped<IInventarioRepository, InventarioRepository>();
+            services.AddScoped<IMovimientoRepository, MovimientoRepository>();
+            services.AddScoped<INotificacionRepository, NotificacionRepository>();
+            services.AddScoped<IAlmacenRepository, AlmacenRepository>();
+            services.AddScoped<ISucursalRepository, SucursalRepository>();
+            services.AddScoped<IEmpleadoRepository, EmpleadoRepository>();
 
 
             return services;

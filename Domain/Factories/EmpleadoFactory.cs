@@ -7,7 +7,7 @@ namespace Domain.Factories
 {
     public class EmpleadoFactory : IEmpleadoFactory
     {
-        public Empleado Create(Guid idSucursal, EmailValue email, string password, string nombreCompleto, int codPuesto)
+        public Empleado Create(Guid idSucursal, string email, string password, string nombreCompleto, int codPuesto)
         {
             var obj = new Empleado(idSucursal, email, password, nombreCompleto, codPuesto);
             return obj;

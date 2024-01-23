@@ -2,6 +2,7 @@
 using Domain.Model;
 using Domain.Repositories;
 using Infrastructure.EF.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.EF.Repository
 {
